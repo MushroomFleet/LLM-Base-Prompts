@@ -1,6 +1,7 @@
-# LLM-Base-Prompts
-<br />
+# LLM-Base-Prompts <br />
+<br /><br />
 # ACE-HFS <br />
+<br /><br />
 Built with Claude, works with other leading LLM's, Yes.<br />
 <br /><br />
 Adaptive Capacity Elucidation (ACE) <br />
