@@ -14,8 +14,9 @@ Holographic Filesystem (HFS) = Projected simulation hybrid CLI for the creation,
 note: Holographic filesystems are projected at runtime, so they do not exist & memory is limited by the attention window - however is viable for most tasks.<br />
 <br /><br />
 # image-to-video<br />
+<br /><br />
 These prompts are intended for use with VisionLLM's, to guide the creation of prompts based on existing images, which are then pushed into video generation.<br />
-
+<br /><br />
 # GPT4 Agents <br />
 <br /><br />
 Source Prompts for almost all my GPT4 agents, you can use them here:<br />
