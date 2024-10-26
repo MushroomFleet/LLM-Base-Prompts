@@ -1,6 +1,6 @@
 # LLM-Base-Prompts <br />
 <br /><br />
-# ACE-HFS Holographic Filesystem <br />
+# ACE-HFS (Holographic Filesystem) <br />
 <br /><br />
 Built with Claude, works with other leading LLM's, Yes.<br />
 <br /><br />
