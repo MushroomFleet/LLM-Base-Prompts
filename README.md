@@ -1,10 +1,10 @@
 # LLM-Base-Prompts <br />
 <br /><br />
+Built with Claude, works with other leading LLM's, Yes. <br />
+<br /><br />
 # ACE-HFS (Holographic Filesystem) <br />
 <br /><br />
-Built with Claude, works with other leading LLM's, Yes.<br />
-<br /><br />
-Adaptive Capacity Elucidation (ACE) <br />
+Adaptive Capacity Elicitation (ACE) <br />
 Study = https://www.figma.com/board/LSDHKkpABc1OXYP3Lupc5z/Adaptive-Capacity-Elicitation-Study?t=JsRMwcLb5KiMGYua-0 <br />
 ACE GPT Agent: <br />
 https://chatgpt.com/g/g-6ASmFgLNO-adaptive-capacity-elicitation <br />
