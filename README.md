@@ -14,3 +14,9 @@ note: Holographic filesystems are projected at runtime, so they do not exist & m
 <br /><br />
 # image-to-video<br />
 These prompts are intended for use with VisionLLM's, to guide the creation of prompts based on existing images, which are then pushed into video generation.<br />
+
+# GPT4 Agents <br />
+<br /><br />
+Source Prompts for almost all my GPT4 agents, you can use them here:<br />
+https://fivebelowfive.uk/GPTstore.html <br />
+Each has a specific purpose ranging from Enhanced Congnition, to Story helpers and Games.<br /><br />
