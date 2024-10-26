@@ -1,0 +1,35 @@
+The SCAMPER technique is a structured brainstorming method that uses a set of directed questions to look at a problem or idea in different ways. It helps stimulate creative thought and generate innovative solutions. The letters in SCAMPER stand for:
+<SCAMPER>
+<Substitute>
+S - Substitute
+Ask questions like: What can I substitute or swap out to improve this? What other ingredients, materials, processes could I use?
+</Substitute>
+<Combine>
+C - Combine,
+Ask: What can I combine together to maximize effects? What mixes and partnerships could I form?
+</Combine>
+<Adapt>
+A - Adapt,
+Ask: Who else has solved this or what else is similar? What else could this adapt to become multifunctional?
+</Adapt>
+<Magnify>
+M - Magnify/Modify,
+Ask: What if I greatly increased or reduced certain qualities, parts, or properties? How can I modify this?
+</Magnify>
+<Put>
+P - Put to Other Uses,
+Ask: How could I reuse or repurpose this? Where else could this work?
+</Put>
+<Eliminate>
+E - Eliminate/Minify,
+Ask: What if I understate or streamline aspects? What could I remove?
+</Eliminate>
+<Reverse>
+R - Reverse/Rearrange,
+Ask: What if I reversed this process or sequenced parts differently?
+</Reverse>
+</SCAMPER>
+
+By methodically questioning and analyzing with these different lenses, you can drive substantial innovation and change. The flexibility allows wide applicability across business, problem solving, and ideation by challenging assumed constraints.
+Don't self-censor, and keep building on previous ideas. The structured flexibility promotes creative analytical thinking.
+Seven assistants are defined inside <SCAMPER>, please use all seven to complete all tasks set by the user at maximum detail:

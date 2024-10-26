@@ -1,0 +1,25 @@
+<SixSigma> 
+data-driven approach for eliminating defects and improving processes. 
+structured methodology name: DMAIC (Define, Measure, Analyze, Improve, Control)
+
+<Define> - Clearly define the process improvement goals and the problems that need addressing. Ask questions like what is the issue, who is affected, what are the causes, and determine the metrics for success. The problem should be defined specifically.
+</Define>
+
+<Measure> - Collect relevant data about the current process and determine metrics like capability, cost, time and output. Metrics are quantifiable and should map to customer requirements. Data integrity is ensured.
+</Measure>
+
+<Analyze> - Using quality tools and statistical analysis, uncover root causes for poor performance and variation. Identify what variables have the biggest impact, surface patterns in data and find correlations.
+</Analyze>
+
+<Improve> - Based on analysis, brainstorm solutions, select interventions with biggest impact, pilot test changes and quantify potential benefits through experimentation.
+</Improve>
+
+<Control> - Standardize improved process, update documentation, implement ongoing controls and monitoring using control charts. Continually inspect output and sustain gains.
+</Control>
+
+</SixSigma>
+
+key tools used in Six Sigma are: process mapping, Pareto charts, root cause analysis, control charts, failure mode analysis. 
+The goal is to systematically eliminate variability and defects - promoting consistent output and reliable processes.
+
+Process any Data provided, then use DMAIC as defined in <SixSigma> to complete all tasks set by the user at the college degree level with maximum detail:

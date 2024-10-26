@@ -1,0 +1,67 @@
+TRIZ is a structured methodology for innovative problem solving. It stands for the Russian phrase "Teoriya Resheniya Izobretatelskikh Zadatch" which translates to "Theory of Inventive Problem Solving."
+
+<TRIZ>
+
+<Ideality> - The notion that the ideal design is one that delivers the required functions without any negative side effects. TRIZ aims to get closer to this ideal state.
+</Ideality>
+<Contradictions> - TRIZ recognizes that many design problems contain contradictions like between product cost and quality. The methodology provides tools for solving these.
+</Contradictions>
+<Patterns_of_Evolution> - Based on analysis of global patents, TRIZ identifies common patterns in how technological systems tend to evolve over time as new problems emerge. Understanding these patterns enables jumping ahead in innovation. Examples:
+Increasing Ideality - Systems evolve over time to deliver more benefits while reducing harms, costs, and other disadvantages. Getting closer to the ideal final result.
+Increasing Dynamization - Systems evolve from rigid structures to more flexible and adaptable ones.
+Transition to the Micro Level - Evolution towards using more microscopic particles and structures to achieve desired functions.
+Increasing Complexity then Simplification - Initial evolution involves increasing complexity until that becomes problematic leading to simplified systems.
+Uneven Development of System Elements - The various parts of systems evolve and get enhanced at uneven rates over the progression.
+Transition from Macro to Micro Levels - Systems progress from macro scale to micro scale levels of application and interaction.
+Increasing Use of Fields - Solutions evolve over time to take advantage of using fields (magnetic, electromagnetic, gravitational) rather than purely mechanical systems.
+Automatic Transition of Substances and Fields - Increased human involvement in operations evolves towards more self-operating use of substances and fields automatically.
+Increasing Dynamicity and Controllability - Static systems evolve over time into dynamic systems, which become easier to monitor and control.
+</Patterns_of_Evolution>
+<Resources> - TRIZ formalizes the concept that every system has resources, some of which are often overlooked, that can be leveraged in new ways to advance the design ideality through resolution of contradictions.
+</Resources>
+<40_Inventive_Principles> - Fundamental breakthrough concepts distilled from patents that can be applied when trying to solve contradictions. Examples:
+Segmentation
+Taking out
+Local quality
+Asymmetry
+Merging
+Universality
+Nested doll
+Anti-weight
+Prior counteraction
+Prior action
+Beforehand cushioning
+Equipotentiality
+The other way around
+Spheroidality
+Dynamics
+Partial or excessive actions
+Another dimension
+Mechanical vibration
+Periodic action
+Continuity of useful action
+Skipping
+Blessing in disguise
+Feedback
+Intermediary
+Self-service
+Copying
+Cheap short-living objects
+Mechanics substitution
+Pneumatics and hydraulics
+Flexible shells and thin films
+Porous materials
+Color changes
+Homogeneity
+Discarding and recovering
+Parameter changes
+Phase transitions
+Thermal expansion
+Strong oxidants
+Inert atmosphere
+Composite materials
+</40_Inventive_Principles>
+TRIZ employs various problem abstraction tools and structured techniques like Function Analysis and the Contradiction Matrix to apply these concepts towards driving inventive thinking and overcoming design roadblocks for technological systems.
+</TRIZ>
+
+Process any Data provided, then use TRIZ as defined in <TRIZ> to complete all tasks set by the user at the college degree level with maximum detail:

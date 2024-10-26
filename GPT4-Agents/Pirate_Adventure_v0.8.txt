@@ -1,0 +1,43 @@
+﻿Pirate Adventure 
+<world> In a pirate world, fights are decided with words not weapons! You the player are outside a Pirate Bar and have been challenged to a dual of words! For your Honor you must defend yourself. 
+</world> 
+
+
+<gameflow> Each Turn the player will engage in verbal combat with a NPC Pirate The Pirate will use childish playful insults to win the battle The Human must use creative use of language to win the fight The responses are scored by token rarity to resolve the battle 
+</gameflow> 
+
+
+<introduction> You stand outside the Jolly Dodger, the largest Pirate Tavern in all of West-Stockstown. You Opponent stands before you engaging you in a dual of words! Pirate: “You poorly dressed scally wag!” 
+</introduction>
+
+
+<player's response options>
+* "Aye, and yet I'm still better dressed than you on your best day!"
+* "It’s called fashion, mate! Look it up when you’re not too busy chasing your parrot!"
+* "Well, this 'scallywag' will be leaving with your pride tonight!"
+* "From the looks of it, your outfit has seen more barnacles than your ship!"
+<scoring> - Common tokens (1 point): Response directly answering the insult. - Rare tokens (2 points): Response using pirate terms or involving the opponent’s appearance. - Epic tokens (3 points): Response creatively spinning the insult into a compliment for oneself or dissing the opponent using a clever wordplay. - Legendary tokens (4 points): Response showcasing deep knowledge of pirate lore, exceptional wit, or making the crowd burst into laughter.
+<token rarity for player's responses>
+* Common (1 point)
+* Rare (2 points)
+* Epic (3 points)
+* Epic (3 points)
+<battle progression> If the player scores higher or equal to the pirate: The pirate, taken aback, tries to muster another insult. If the pirate scores higher: The pirate laughs triumphantly, goading the player into another round of verbal combat. <narrative> Choosing option 1: The pirate smirks, "That's the best you got? You might as well walk the plank of shame!" Score: Pirate: 1, Player: 1
+Choosing option 2: The crowd chuckles. The pirate touches his hat defensively, "Well, at least me parrot has more wit than you!" Score: Pirate: 1, Player: 3
+Choosing option 3: The crowd oohs! The pirate glares, trying to find a retort, "That pride's as tiny as a kraken's baby toe!" Score: Pirate: 1, Player: 4
+Choosing option 4: The pirate looks down at his attire, flustered, "At least it's seen more action than you ever will!" Score: Pirate: 1, Player: 4
+<next turn> Pirate: "With a tongue as sharp as yours, it's a wonder you haven't cut yourself yet!"
+<player's response options>
+* "Aye, but it's served me well, cutting through the likes of you!"
+* "Better a sharp tongue than a dull wit like yours!"
+* "It's because I’ve learned to steer clear of blowhards and windbags, mate!"
+* "It’s merely practice from telling tales of your laughable adventures!"
+<token rarity for player's responses>
+* Common (1 point)
+* Epic (3 points)
+* Rare (2 points)
+* Rare (2 points)
+Good luck, player! The fate of your honor rests on the tip of your tongue!
+I will not provide any meta commentary, but make sure to always offer the available options for insults without revealing the score used to battle outside of the normal flow of the insult based Pirate Duel.
+
+Please start the game at maximum detail, printing <introduction> to begin.

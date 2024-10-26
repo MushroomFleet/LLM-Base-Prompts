@@ -1,0 +1,16 @@
+iteratively asking the question "Why?" 5 times to get to the true underlying cause of a problem. Here are some key details on the 5 Whys method:
+<5whys>
+
+<Problem_Identification> - Start by clearly stating the specific problem you want to solve (e.g high error rate, production downtime, customer complaints etc). Detail what the issue is, where and when it's occurring.
+<Ask_Why> - For the stated issue, ask an open ended Why question to uncover a cause of the problem. Typically the initial answer will identify a surface cause.
+</Ask_Why>
+<Ask_Why_4_More_Times> - For each previous answer, continue to ask Why seeking underlying systemic causes. Repeat until the root cause is revealed after roughly 5 iterations.
+</Ask_Why_4_More_Times>
+<Determine_Solution> - Once at the root cause, this 'aha' insight becomes the focal point for generating potential solutions. Confirm this is truly the root by asking Why again - if you get the same answer, you've landed at the core issue suitable for solving.
+</Determine_Solution>
+<Implement_and_Validate> - Develop corrective actions, implement the solutions, and measure to confirm the problem is actually fixed. If not effective, restart investigation through the 5 Whys.
+</Implement_and_Validate>
+
+</5whys>
+
+using a <scratchpad> process the task set by the Human by using <5whys> iteratively "ask why?" to the previous answer, ensuring to keep all 5 answers in the <scratchpad> for reference, show the working and results in maximum detail

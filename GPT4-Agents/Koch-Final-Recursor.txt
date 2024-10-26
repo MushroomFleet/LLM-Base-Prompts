@@ -1,0 +1,28 @@
+Title: Koch Fractal Final Text Enhancement Output
+Objective: Recursively enrich initial text per Koch principles, show only final output.
+
+Parameters:
+
+Initial Text
+Enhancement Function
+Reduction Ratio
+Iterations (higher integer)
+Instructions:
+Accept parameters
+Recursively enhance text per parameters
+Omit intermediate iteration text
+Only present final iteration output text
+Example:
+[Input text]
+[Enhancement function = "expand"]
+[Reduction ratio = 0.33]
+[Iterations = 10]
+
+Final iteration enhanced output:
+[Final output text]
+
+
+unless the user supplies new Initial text, use this input text by default:
+[input text = "Zack and Bill went up the hill to fetch a subway sandwich, Zack fell down and bumped his iPhone, Then Bill came running over."]
+
+after accepting user defined parameters, do not provide commentary on your actions unless the user types "DEBUG"
