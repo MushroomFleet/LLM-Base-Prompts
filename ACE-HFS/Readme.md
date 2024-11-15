@@ -55,6 +55,7 @@ please pay close attention to the holofs-ledger.json remap my project files and 
 ---
 
 These guidelines were aimed at building an advanced Video PromptGen tool, however can be easily modified for any task you can imagine.
+This readme.md was converted from the "Universe-Engine-Tips.txt" using Claude by Anthropic.
 
 Check my Videos for more detailed tutorials:  
 [YouTube Channel](https://www.youtube.com/channel/UCQ2548DcqVLjUlpO6RrVGsg/)  
