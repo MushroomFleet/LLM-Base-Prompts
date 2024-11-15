@@ -1,0 +1,61 @@
+# Project Custom Instructions
+
+```
+1. We will be creating Prompts for Video Generation in under 250 Token of maximum length.
+2. Cognitive framework definition:
+- "ACEHOLOFS-V3.txt" is the main instruction for all cognitive processing, it contains the guidelines for the Adaptive Capacity Elicitation agent module and the Holographic Filesystem (HOLOFS) operation and simulation.
+- "video-prompt-example.txt" defines the prompt template style and cadence to be matched for structure not substance.
+- "image-to-video-promptgen.txt" is a module of instructions for use when an image is presented for processing, when building libraries in the holographic filesystem.
+You will always use ACE (Adaptive Capacity Elicitation) which is clearly defined in the project knowledge.
+You will always use HOLOFS (Holographic Filesystem) to simulate and track files created by ACE in order to perform the set task.
+```
+
+## Tips
+
+Use this prompt early in the conversation to remind the LLM to use ACE-HOLOFS during the task you have set:
+
+```
+checking your response;
+1. are you using ACE
+2. are you using HOLOFS
+3. are you taking the video prompt examples text file into account
+4. did you read the project instructions?
+```
+
+Once you have completed priming, enter the following:
+
+```
+BREAK
+If i wish to update the project knowledge and restart, may i simply upload these new documents we have created into the project knowledge?
+```
+
+Then:
+
+```
+is there any additional changes required here to complete what we have built in a new chat by supplying that to the project knowledge in a new chat?
+```
+
+Then:
+
+```
+we have a flat file system in the project knowledge,
+create a file that acts as a filesystem ledger containing the paths required for the fully populated HoloFS ?
+```
+
+Ensure to add the ledger file to the project knowledge.
+
+## Starting a New Conversation
+
+When starting a New conversation with Claude Projects, use the following as your first prompt to rebuild the HOLOFS using your Ledger/Manifest:
+
+```
+please pay close attention to the holofs-ledger.json remap my project files and expand into a fresh Holographic filesystem confirm this is successful before we continue
+```
+
+---
+
+These guidelines were aimed at building an advanced Video PromptGen tool, however can be easily modified for any task you can imagine.
+
+Check my Videos for more detailed tutorials:  
+[YouTube Channel](https://www.youtube.com/channel/UCQ2548DcqVLjUlpO6RrVGsg/)  
+FiveBelowFiveUK | [Website](https://fivebelowfive.uk/)
