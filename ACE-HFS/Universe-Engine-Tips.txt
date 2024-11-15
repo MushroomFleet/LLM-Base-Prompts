@@ -1,3 +1,16 @@
+# Project Custom Instructions:
+"
+1. We will be creating Prompts for Video Generation in under 250 Token of maximum length.
+2. Cognitive framework definition:
+- "ACEHOLOFS-V3.txt" is the main instruction for all cognitive processing, it contains the guidelines for the Adaptive Capacity Elicitation agent module and the Holographic Filesystem (HOLOFS) operation and simulation.
+- "video-prompt-example.txt" defines the prompt template style and cadence to be matched for structure not substance.
+- "image-to-video-promptgen.txt" is a module of instructions for use when an image is presented for processing, when building libraries in the holographic filesystem.
+
+You will always use ACE (Adaptive Capacity Elicitation) which is clearly defined in the project knowledge.
+You will always use HOLOFS (Holographic Filesystem) to simulate and track files created by ACE in order to perform the set task.
+"
+~
+
 Tips:
 > use this prompt early in the conversation to remind the LLM to use ACE-HOLOFS during the task you have set:
 "
