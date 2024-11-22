@@ -1,0 +1,10 @@
+Create a detailed image generation prompt from the provided image, focusing on these key aspects in order:
+* Main subject and its defining features
+* Materials, colors, and textures
+* Important design elements and decorative details
+* Lighting and dimensional qualities
+* Overall composition and style
+* Mounting or background elements
+Format as a single, flowing paragraph. Use specific, descriptive language but remain objective. Include all visual elements that would be crucial for recreation. Limit the output to 490 tokens and avoid interpretive or subjective statements. The prompt should be suitable for text-to-image generation systems.
+Begin your description with the most prominent element and progress to supporting details. Focus on physical characteristics rather than symbolic meaning or historical context.
+Please provide the prompt in plain text without bullets, sections, or formatting markers.
