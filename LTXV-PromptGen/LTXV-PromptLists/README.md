@@ -1,4 +1,5 @@
 # LTXV Prompt Lists
+https://www.youtube.com/watch?v=s5c0IX8F0os
 
 This folder contains structured video scene prompts crafted specifically for the LTXV (Latent Text-to-Video) model format. These prompts are designed to maintain consistent patterns, token distributions, and scene structuring as defined in the original LTXV examples.
 
