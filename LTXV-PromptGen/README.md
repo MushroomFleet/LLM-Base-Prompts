@@ -172,10 +172,11 @@ Common Issues:
 
 ## 📚 Resources
 
-- [ACE-HOLOFS Documentation](link)
-- [Video Prompt Engineering Guide](link)
-- [Template Pattern Reference](link)
-- [Token Optimization Strategies](link)
+- [ACE-HOLOFS Documentation](#)
+- [Video Prompt Engineering Guide](#)
+- [Template Pattern Reference](#)
+- [Token Optimization Strategies](#)
+(WIP)
 
 ## 🤝 Contributing
 
