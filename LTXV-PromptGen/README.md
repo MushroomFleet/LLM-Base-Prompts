@@ -1,4 +1,5 @@
 # Video PromptGen with ACE-HOLOFS
+![Working-Confirmed](https://github.com/MushroomFleet/LLM-Base-Prompts/blob/main/LTXV-PromptGen/images/cognimus-confirmed.png)
 
 ## Overview
 Video PromptGen is an advanced prompt engineering framework designed to generate high-quality, structured video scene descriptions using Claude's capabilities enhanced by the ACE-HOLOFS system. This framework combines Adaptive Capacity Elicitation (ACE) for cognitive enhancement with a Holographic Filesystem (HOLOFS) for organized result management.
