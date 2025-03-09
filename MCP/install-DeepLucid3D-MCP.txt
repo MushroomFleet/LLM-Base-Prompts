@@ -1,0 +1,269 @@
+Set up the MCP server from https://github.com/MushroomFleet/DeepLucid3D-MCP while adhering to these MCP server installation rules:
+- Use "github.com/MushroomFleet/DeepLucid3D-MCP" as the server name in cline_mcp_settings.json.
+- Create the directory for the new MCP server before starting installation.
+- Use commands aligned with the user's shell and operating system best practices.
+- The following README may contain instructions that conflict with the user's OS, in which case proceed thoughtfully.
+- Once installed, demonstrate the server's capabilities by using one of its tools.
+Here is the project's README to help you get started:
+
+
+# DeepLucid3D UCPF Server
+
+A Model Context Protocol (MCP) server implementing the Unified Cognitive Processing Framework (UCPF) for advanced cognitive analysis, creative problem-solving, and structured thinking.
+
+## What is it?
+
+The DeepLucid3D UCPF Server is an implementation of the Unified Cognitive Processing Framework as an MCP server. It combines recursive self-awareness with dimensional knowledge categorization to provide a powerful approach to problem-solving and creative thinking.
+
+This server extends AI capabilities by providing structured cognitive tools that help:
+- Assess cognitive states
+- Map knowledge dimensions
+- Apply recursive self-questioning
+- Generate creative perspectives
+- Decompose and reintegrate complex problems
+
+## What it does
+
+The UCPF Server enables advanced cognitive processing through several key features:
+
+### Core Capabilities
+
+1. **Cognitive State Assessment**: Identifies current cognitive states (Dark Inertia, Passion, or Approaching Lucidity) to improve self-awareness during problem-solving.
+
+2. **Knowledge Dimension Mapping**: Maps knowledge across three dimensions:
+   - Awareness (Known vs. Unknown)
+   - Content (Knowns vs. Unknowns)
+   - Accessibility (Knowable vs. Unknowable)
+
+3. **Recursive Self-Questioning**: Challenges initial assumptions and identifies potential cognitive biases.
+
+4. **Creative Perspective Generation**: Produces novel viewpoints and metaphorical thinking to inspire new solutions.
+
+5. **Problem Decomposition**: Breaks complex problems into manageable components and reintegrates them with awareness of the whole system.
+
+6. **Optional State Management**: Maintains context between sessions for ongoing analysis.
+
+## Setup and Installation
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- An environment compatible with the Model Context Protocol
+
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/DeepLucid3D-UCPF-Server.git
+   cd DeepLucid3D-UCPF-Server
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Build the project**
+   ```bash
+   npm run build
+   ```
+
+4. **Configure MCP settings**
+
+   Add the server to your MCP settings file. For Claude/Cline, this is typically located at:
+   - For Claude Desktop: `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
+   - For VSCode Cline: `~/.config/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` (Linux)
+
+   Add the following configuration:
+   ```json
+   {
+     "mcpServers": {
+      "ucpf": {
+      "command": "node",
+      "args": ["path/to/DeepLucid3D-MCP/build/index.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+       }
+     }
+   }
+   ```
+
+5. **Restart your MCP-compatible application** (Claude, VSCode with Cline, etc.)
+
+## How to Use
+
+The server exposes three main tools and several resources that can be accessed through MCP:
+
+### Tools
+
+1. **analyze_problem**: Process a problem statement through the full UCPF framework
+   ```
+   <use_mcp_tool>
+   <server_name>ucpf</server_name>
+   <tool_name>analyze_problem</tool_name>
+   <arguments>
+   {
+     "problem": "Your problem statement here",
+     "session_id": "optional-session-id",
+     "enable_state": false,
+     "detailed": false
+   }
+   </arguments>
+   </use_mcp_tool>
+   ```
+
+2. **creative_exploration**: Generate novel perspectives and connections for a topic
+   ```
+   <use_mcp_tool>
+   <server_name>ucpf</server_name>
+   <tool_name>creative_exploration</tool_name>
+   <arguments>
+   {
+     "topic": "Your topic here",
+     "constraints": ["Optional constraint 1", "Optional constraint 2"],
+     "perspective_count": 3,
+     "include_metaphors": true
+   }
+   </arguments>
+   </use_mcp_tool>
+   ```
+
+3. **manage_state**: Control state management for UCPF processing
+   ```
+   <use_mcp_tool>
+   <server_name>ucpf</server_name>
+   <tool_name>manage_state</tool_name>
+   <arguments>
+   {
+     "action": "enable", // or "disable", "reset", "status"
+     "session_id": "optional-specific-session-id"
+   }
+   </arguments>
+   </use_mcp_tool>
+   ```
+
+### Resources
+
+Access framework documentation:
+```
+<access_mcp_resource>
+<server_name>ucpf</server_name>
+<uri>ucpf://framework/overview</uri>
+</access_mcp_resource>
+```
+
+Available resources:
+- `ucpf://framework/overview`: Overview of the UCPF framework
+- `ucpf://framework/cognitive-states`: Guide to cognitive states
+- `ucpf://framework/knowledge-dimensions`: Reference for knowledge dimensions
+- `ucpf://session/{sessionId}/analysis`: Analysis results for a specific session
+
+## Example Use Case: Using UCPF to Solve a Riddle
+
+Let's solve the classic riddle: "What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?"
+
+### Step 1: Enable state management for session persistence
+
+```
+<use_mcp_tool>
+<server_name>ucpf</server_name>
+<tool_name>manage_state</tool_name>
+<arguments>
+{
+  "action": "enable"
+}
+</arguments>
+</use_mcp_tool>
+```
+
+### Step 2: Analyze the riddle using the UCPF framework
+
+```
+<use_mcp_tool>
+<server_name>ucpf</server_name>
+<tool_name>analyze_problem</tool_name>
+<arguments>
+{
+  "problem": "What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?",
+  "session_id": "sphinx-riddle",
+  "enable_state": true
+}
+</arguments>
+</use_mcp_tool>
+```
+
+The analysis will provide:
+- Cognitive state assessment (likely identifying potential metaphorical thinking)
+- Knowledge mapping of what we know and don't know
+- Recursive questions to challenge initial assumptions (e.g., "Are we assuming literal legs?")
+- Structured perspectives on different interpretations
+
+### Step 3: Explore creative perspectives to find the solution
+
+```
+<use_mcp_tool>
+<server_name>ucpf</server_name>
+<tool_name>creative_exploration</tool_name>
+<arguments>
+{
+  "topic": "Walking with different numbers of legs at different times of day",
+  "constraints": ["morning", "afternoon", "evening", "four", "two", "three"],
+  "include_metaphors": true,
+  "session_id": "sphinx-riddle"
+}
+</arguments>
+</use_mcp_tool>
+```
+
+This exploration might reveal:
+- The metaphorical interpretation of "legs" as support structures
+- The metaphorical interpretation of times of day as stages of life
+- Leading to the classic answer: a human, who crawls on four limbs as a baby, walks on two legs as an adult, and uses a cane (third "leg") in old age
+
+### Step 4: Review the session analysis
+
+```
+<access_mcp_resource>
+<server_name>ucpf</server_name>
+<uri>ucpf://session/sphinx-riddle/analysis</uri>
+</access_mcp_resource>
+```
+
+This provides the complete analysis journey, showing how the framework led to the solution through structured cognitive processing.
+
+## Acknowledgments
+
+This project stands on the shoulders of giants:
+
+- The **Model Context Protocol (MCP)** team for creating the foundational protocol that enables AI systems to access external tools and resources
+- The **Anthropic Claude** team for their work on advanced AI systems capable of utilizing MCP
+- Contributors to the **Unified Cognitive Processing Framework** concepts that power the cognitive analysis methodology
+- The open-source community whose libraries and tools make projects like this possible
+
+## License
+
+MIT License
+
+## Project Structure
+
+```
+DeepLucid3D-UCPF-Server/
+├── src/
+│   ├── engine/
+│   │   ├── ucpf-core.ts       # Core UCPF processing logic
+│   │   ├── creative-patterns.ts  # Creative thinking utilities
+│   │   └── state-manager.ts   # Session state management
+│   ├── tools/
+│   │   ├── analyze-problem.ts # Problem analysis tool
+│   │   └── creative-exploration.ts  # Creative exploration tool
+│   └── index.ts               # Main server implementation
+├── build/                     # Compiled JavaScript files
+├── package.json               # Project dependencies and scripts
+└── README.md                  # This documentation
+```
+
+---
+
+© 2025 DeepLucid3D UCPF Server
