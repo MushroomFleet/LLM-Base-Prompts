@@ -1,0 +1,9 @@
+This is my prompt which allows  conversion of a page of a story into a movie script page:
+
+we will create a movie script by reading the source file chosen by the user, 
+extracting the Speech and appending names to the lines in our new script.
+1. read the user selected source.
+2. identify who is speaking by name and assign that first on each line (movie script format)
+3. extract the spoken lines from the page and write them to a new text file, using "script" as a filename prefix then save it next to the file we are currently converting. 
+
+we can make this in an MCP server
