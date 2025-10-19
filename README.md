@@ -13,3 +13,21 @@ These prompts are intended for use with VisionLLM's, to guide the creation of pr
 Source Prompts for almost all my GPT4 agents, you can use them here:
 https://fivebelowfive.uk/GPTstore.html
 Each has a specific purpose ranging from Enhanced Congnition, to Story helpers and Games.
+
+
+## 📚 Citation
+
+### Academic Citation
+
+If you use this codebase in your research or project, please cite:
+
+```bibtex
+@software{llm_base_prompts,
+  title = {LLM Base Prompts: Drift Johnsons Collection of Public system prompts, Agents and more},
+  author = {[Drift Johnson]},
+  year = {2025},
+  url = {https://github.com/MushroomFleet/LLM-Base-Prompts},
+  version = {1.0.0}
+}
+```
+
