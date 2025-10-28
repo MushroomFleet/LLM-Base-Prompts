@@ -1,0 +1,1 @@
+write out a new markdown artifact named "do-not-upload.md" which takes the form of a file and folder structure, listing all the files in the project codebase. We use a Red X Emoji to mark files which should not be uploaded at the end of each line. This can communicate to the github team, which files should be uploaded from the codebase and which should not.
