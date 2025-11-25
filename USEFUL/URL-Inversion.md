@@ -1,0 +1,3 @@
+use deep research to examine the services and features offered by https://www.[URL].com/ and list them for me as we discuss the most optimal pathway to a standalone local redesigned app which fullfils the same feature set while being entirely constructed in REACT + VITE + TAILWIND CSS + FONTAWESOME in typescript. We will target Electron Desktop distribution and make use of IndexedDB for all client sided storage.
+
+our report will take the form of a detailed step by step plan with code required to complete the implementation of "[APP-NAME]" which will aim to offer an opensource alternative to this service without any plans for subscription or payments of any kind, due to the user making use of their locally available compute to perform all tasks.
