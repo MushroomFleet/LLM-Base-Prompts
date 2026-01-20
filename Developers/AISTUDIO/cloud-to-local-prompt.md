@@ -1,0 +1,1 @@
+we can use "CLOUD-TO-LOCAL-MIGRATION-GUIDE.md" as we prepare my "[PROJECT]" for installation with "bun install" and then "bun run dev" to collect any startup issues after checking all listed items in the migration guide, we must check our dependencies and imports are correct as we migrate to local development with claude code
