@@ -34,3 +34,10 @@ If you use this codebase in your research or project, please cite:
 ### Donate:
 
 [![Ko-Fi](https://cdn.ko-fi.com/cdn/kofi3.png?v=3)](https://ko-fi.com/driftjohnson)
+
+## See Also
+
+- [LLM-Base-Prompts](https://github.com/MushroomFleet/LLM-Base-Prompts) — System prompts & personas
+- [Johnsons-Narrative-Spittoon-Inversion](https://github.com/MushroomFleet/Johnsons-Narrative-Spittoon-Inversion) — Narrative generation framework
+- [UNO-MCP](https://github.com/MushroomFleet/UNO-MCP) — Narrative enhancement MCP
+- [Context-Karate](https://github.com/MushroomFleet/Context-Karate) — Intelligent authoring environment
