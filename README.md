@@ -41,3 +41,11 @@ If you use this codebase in your research or project, please cite:
 - [Johnsons-Narrative-Spittoon-Inversion](https://github.com/MushroomFleet/Johnsons-Narrative-Spittoon-Inversion) — Narrative generation framework
 - [UNO-MCP](https://github.com/MushroomFleet/UNO-MCP) — Narrative enhancement MCP
 - [Context-Karate](https://github.com/MushroomFleet/Context-Karate) — Intelligent authoring environment
+
+---
+
+## Support This Project
+
+If you found this useful, please **star the repo** — it helps others discover it!
+
+[![Star on GitHub](https://img.shields.io/github/stars/MushroomFleet/LLM-Base-Prompts?style=social)](https://github.com/MushroomFleet/LLM-Base-Prompts)
